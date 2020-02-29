@@ -1,7 +1,4 @@
-package main;
-
-import main.Resolution;
-import main.Status;
+package main.domaine;
 
 import java.util.Date;
 
@@ -19,6 +16,10 @@ public class Tache {
         this.status = status;
         this.resolution = resolution;
     }
+
+    /*public Tache getInstance(Personne createur, String description, Date date, Status status, Resolution resolution){
+        return new Tache(createur, description, date, status, resolution);
+    }*/
 
     public Personne getCreateur() {
         return createur;

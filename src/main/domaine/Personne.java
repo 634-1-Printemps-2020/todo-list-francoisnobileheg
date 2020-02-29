@@ -1,4 +1,4 @@
-package main;
+package main.domaine;
 
 public class Personne {
     private String nom;

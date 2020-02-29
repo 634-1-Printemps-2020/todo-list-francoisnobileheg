@@ -1,4 +1,4 @@
-package main;
+package main.domaine;
 
 public enum Resolution {
     done,
